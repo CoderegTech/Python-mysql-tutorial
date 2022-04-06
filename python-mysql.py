@@ -15,32 +15,32 @@ conn = mysql.connector.connect(
 cursor = conn.cursor()
 
 # to create a database
-cursor.execute("CREATE DATABASE this_is_my_database")
+cursor.execute("CREATE DATABASE my_database_name")
 
 # commit the changes
 conn.commit()
 # to create a table
-# cursor.execute("CREATE TABLE this_is_my_table(id INT, name VARCHAR(255))")
+# cursor.execute("CREATE TABLE my_table_name(id INT, name VARCHAR(255))")
 
 # commit the changes
 # conn.commit()
 # to insert data into a table
-# cursor.execute("INSERT INTO this_is_my_table VALUES(1, 'John Reygun')")
+# cursor.execute("INSERT INTO my_table_name VALUES(1, 'John Reygun')")
 
 # commit the changes
 # conn.commit()
 # to update data in a table
-# cursor.execute("UPDATE this_is_my_table SET name = 'John Reygun Danag' WHERE id = 1")
+# cursor.execute("UPDATE my_table_name SET name = 'John Reygun Danag' WHERE id = 1")
 
 # commit the changes
 # conn.commit()
 # to delete data in a table
-# cursor.execute("DELETE FROM this_is_my_table WHERE id = 1")
+# cursor.execute("DELETE FROM my_table_name WHERE id = 1")
 
 # commit the changes
 # conn.commit()
 # to select data from a table
-# cursor.execute("SELECT * FROM this_is_my_table")
+# cursor.execute("SELECT * FROM my_table_name")
 
 # to fetch data from a table
 # data = cursor.fetchall()
